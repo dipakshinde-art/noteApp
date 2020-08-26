@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTES"
+        android:textSize="30sp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="30sp"
+        android:layout_height="33sp"
+        android:text="+"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="2.5sp"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:id="@id/addNoteButton"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="2.5sp"
+        android:layout_marginLeft="15dp"
+        android:id="@id/deleteAllimage"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40sp"
+        android:id="@id/recyclerView"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
